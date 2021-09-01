@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1",
+    "readme-md-generator": "^1.0.0",
     "util": "^0.12.4"
   }
 }
