@@ -2,13 +2,13 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)]`
+    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)]`;
   }
   if(license === "Apache 2.0") {
-    return `[![License: ${license}](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`
+    return `[![License: ${license}](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]`;
   }
   if (license === "ISC"){
-    return `[![License: ${license}](https://img.shields.io/badge/License-ISC-blue.svg)]`
+    return `[![License: ${license}](https://img.shields.io/badge/License-ISC-blue.svg)]`;
   }
   return '';
 }
@@ -17,7 +17,7 @@ console.log("loading")
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "None") {
-    return ` (https://opensource.org/licenses/${license})`
+    return ` (https://opensource.org/licenses/${license})`;
   }
   return '';
 }

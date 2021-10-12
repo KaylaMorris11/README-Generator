@@ -3,7 +3,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-
 // TODO: Create an array of questions for user input
 const questions = [
         {
@@ -64,7 +63,7 @@ function init() {
         .then(function(data) {
             writeToFile("output.md", generateMarkdown(data))
             console.log(data)
-        })
+        });
     };
 
-    init();
+    init(); 
