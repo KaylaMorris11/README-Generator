@@ -11,6 +11,9 @@
   ## Usage
   Install all dependencies needed through your terminal
   
+## Link to Video
+https://youtu.be/pT2Q610bK_k
+
 ![Screen Shot 2021-10-12 at 4 58 07 PM](https://user-images.githubusercontent.com/78561316/137044713-375ad616-b31d-4b1f-98ea-99c687e1c1c9.png)
 
 # Technoligies Used:
